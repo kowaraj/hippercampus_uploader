@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "## Basic File Upload **Your node.js code:** ```javascript const express = require('express'); const fileUpload = require('express-fileupload'); const app = express();",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5"
+  }
+}
